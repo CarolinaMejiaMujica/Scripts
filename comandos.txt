@@ -1,0 +1,6 @@
+psql -h instanciatesis.ci9voqbe9ybk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\01CreateDLL.sql
+psql -h instanciatesis.ci9voqbe9ybk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\02DatosInicialesDML.sql
+psql -h instanciatesis.ci9voqbe9ybk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\03DisableConstraints.sql
+psql -h instanciatesis.ci9voqbe9ybk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\04EnableConstraints.sql
+psql -h instanciatesis.ci9voqbe9ybk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\05Delete.sql
+psql -h instanciatesis.ci9voqbe9ybk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\06Truncate.sql
