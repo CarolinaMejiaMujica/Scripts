@@ -1,6 +1,9 @@
-psql -h instanciatesis.ci9voqbe9ybk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\01CreateDLL.sql
-psql -h instanciatesis.ci9voqbe9ybk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\02DatosInicialesDML.sql
-psql -h instanciatesis.ci9voqbe9ybk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\03DisableConstraints.sql
-psql -h instanciatesis.ci9voqbe9ybk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\04EnableConstraints.sql
-psql -h instanciatesis.ci9voqbe9ybk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\05Delete.sql
-psql -h instanciatesis.ci9voqbe9ybk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\06Truncate.sql
+-----------------------------------------------------------------------------
+Pasos :
+-----------------------------------------------------------------------------
+1. Acceder por linea de comandos y escribir lo siguiente para conectarse a la BD:
+
+	psql -h [host] -p [puerto] -U [usuario] -d [database] -f [ruta SQL script]
+  
+  Ejemplo:
+  - psql -h instanciatesis.ci7voqbe8abk.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\01CreateDLL.sql
