@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS agrupamiento;
-DROP TABLE IF EXISTS secuencias;
-DROP TABLE IF EXISTS departamentos;
-DROP TABLE IF EXISTS variantes;
-DROP TABLE IF EXISTS algoritmos;
-DROP TABLE IF EXISTS archivos;
+DROP TABLE IF EXISTS Agrupamiento;
+DROP TABLE IF EXISTS Secuencias;
+DROP TABLE IF EXISTS Departamentos;
+DROP TABLE IF EXISTS Variantes;
+DROP TABLE IF EXISTS Algoritmos;
+DROP TABLE IF EXISTS Archivos;
