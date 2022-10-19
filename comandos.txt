@@ -6,4 +6,7 @@ Pasos :
 	psql -h [host] -p [puerto] -U [usuario] -d [database] -f [ruta SQL script]
   
   Ejemplo:
-  - psql -h instanciatesis.cjfczpppafxb.us-east-1.rds.amazonaws.com -p 5432 -U postgres -d BDTesis -f D:\Proyecto_de_Tesis\scripts\01CreateDLL.sql
+  - psql -h ec2-34-227-135-211.compute-1.amazonaws.com -p 5432 -U rlnivuldeinkhw -d d9h8eju0ocjc4h -f D:\Proyecto_de_Tesis\scripts\01CreateDDL.sql
+  - psql -h ec2-34-227-135-211.compute-1.amazonaws.com -p 5432 -U rlnivuldeinkhw -d d9h8eju0ocjc4h -f D:\Proyecto_de_Tesis\scripts\02DatosInicialesDML.sql
+  - psql -h ec2-34-227-135-211.compute-1.amazonaws.com -p 5432 -U rlnivuldeinkhw -d d9h8eju0ocjc4h -f D:\Proyecto_de_Tesis\scripts\03Truncate.sql
+  - psql -h ec2-34-227-135-211.compute-1.amazonaws.com -p 5432 -U rlnivuldeinkhw -d d9h8eju0ocjc4h -f D:\Proyecto_de_Tesis\scripts\04Delete.sql
